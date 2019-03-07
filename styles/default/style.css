@@ -1,0 +1,102 @@
+.widget.CatPath ul.cp_top li.cp_parent span,
+.widget.CatPath ul.cp_top li.cp_root span,
+.widget.CatPath ul.cp_in li.cp_post span,
+.widget.CatPath ul.cp_in li.cp_sub span{
+	box-shadow: none;
+	border: none;
+}
+.widget.CatPath ul.cp_top li.cp_parent a span,
+.widget.CatPath ul.cp_top li.cp_root span{
+	height: 16px;
+}
+.widget.CatPath ul.cp_top li.cp_parent a span{
+	background: url(img/parent.svg) no-repeat;
+	padding-left: 32px;
+}
+.widget.CatPath ul.cp_top li.cp_root span{
+	background: url(img/root.svg) no-repeat;
+	padding-left: 30px;
+}
+.widget.CatPath ul.cp_in li.cp_post a span,
+.widget.CatPath ul.cp_in li.cp_sub a span{
+	height: 14px;
+}
+.widget.CatPath ul.cp_in li.cp_post a span{
+	background: url(img/post.svg) no-repeat;
+	padding-left: 25px;
+}
+.widget.CatPath ul.cp_in li.cp_sub a span{
+	background: url(img/sub.svg) no-repeat;
+	padding-left: 28px;
+}
+
+.widget.CatPath{
+	padding: 0px;
+	-webkit-box-shadow: 0px 0px 3px 3px #0088D0;
+    -moz-box-shadow: 0px 0px 3px 3px #0088D0;
+    box-shadow: 0px 0px 3px 3px #0088D0;
+	border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+	color: #2489B6;
+}
+.widget.CatPath ul.cp_top,
+.widget.CatPath ul.cp_in{
+	width: 100%;
+}
+.widget.CatPath ul.cp_top li.cp_parent,
+.widget.CatPath ul.cp_top li.cp_root{
+	padding: 7px 7px 7px 5px;
+	background-color: #ddd;
+	font-size: 16px;
+	font-size: 1.142857143rem;
+	line-height: inherit;
+	border-top: 1px solid #6eB2D6;
+	border-bottom: 1px solid #999;
+	border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.widget.CatPath ul.cp_in li.cp_post,
+.widget.CatPath ul.cp_in li.cp_sub{
+	background-color: #eee;
+	font-size: 14px;
+	font-size: 1rem;
+	line-height: inherit;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #fff;
+}
+.widget.CatPath ul.cp_in li.cp_post{
+	padding: 6px 6px 6px 11px;
+}
+.widget.CatPath ul.cp_in li.cp_sub{
+	padding: 6px 6px 6px 8px;
+}
+.widget.CatPath ul.cp_top li a,
+.widget.CatPath ul.cp_in li a{
+	color: #2489B6;
+	box-shadow: none;
+	text-decoration: none;
+	display: block;
+	cursor: pointer;
+}
+.widget.CatPath ul.cp_top li a:link,
+.widget.CatPath ul.cp_in li a:link{
+	color: #2489B6;
+	text-decoration: none;
+	display: block;
+	cursor: pointer;
+}
+.widget.CatPath ul.cp_top li a:hover,
+.widget.CatPath ul.cp_in li a:hover{
+	-webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+	color: #2489B6;
+}
+.widget.CatPath ul.cp_top li a:active,
+.widget.CatPath ul.cp_in li a:active{
+	color: #2489B6;
+}
+.widget.CatPath ul.cp_top li a:visited,
+.widget.CatPath ul.cp_in li a:visited{
+	color: #2489B6;
+}
